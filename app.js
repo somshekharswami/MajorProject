@@ -8,6 +8,7 @@ const path = require("path");
 const methodOverride = require("method-override");
 const ejsmate=require("ejs-mate"); 
 const multer=require("multer");
+const Joi = require('joi');
 const upload=multer({dest:"uploads/"});
 
 const listing=require("./routes/listing.js");
